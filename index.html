@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Neo-Brutalist Food Menu</title>
+  <meta name="description"
+    content="Welcome to our Neo-Brutalist Food Menu website. Explore our bold menu featuring burgers, sandwiches, and drinks.">
+  <link rel="stylesheet" href="Assets/Css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header>
+    <h1 class="logo">
+      BRUTALIST <span>BITES</span>
+    </h1>
+    <button id="menu-toggle" aria-label="Toggle menu">MAIN MENU</button>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="donation.html">Donate</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section class="hero"
+      style="background-image: url('Assets/Imgs/hero-bg.png'); background-size: cover; background-blend-mode: multiply;">
+      <div style="background-color: rgba(0,0,0,0.7); padding: 2rem; border: var(--border); display: inline-block;">
+        <h2>BOLD FLAVORS.<br>BOLD DESIGN.</h2>
+        <p>Experience food with attitude. No compromises, just pure taste.</p>
+      </div>
+    </section>
+    <section class="daily-special">
+      <h2>TODAY'S SPECIAL</h2>
+      <div class="special-content"
+        style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: center;">
+        <div style="flex: 1 1 300px; max-width: 500px;">
+          <img src="Assets/Imgs/burger-special.png" alt="Massive Triple Brutalist Burger with bacon and cheese"
+            style="width: 100%; border: var(--border); box-shadow: var(--shadow-lg); border-radius: 2px;">
+        </div>
+        <div style="flex: 1 1 300px;">
+          <h3>TRIPLE BRUTALIST BURGER</h3>
+          <p>Three beef patties, sharp cheddar, crispy bacon, and our signature bold sauce. No subtlety, all
+            flavor.</p>
+          <p class="price" style="font-size: 2.5rem; margin: 1rem 0;">Â£12.99</p>
+          <a href="menu.html" class="btn">View Full Menu</a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>WHAT WE'RE ABOUT</h2>
+      <article>
+        <h3>HONEST FOOD. BOLD STYLE.</h3>
+        <p>
+          We believe in straightforward, unapologetic flavor. Our menu features
+          carefully sourced ingredients, with full transparency about our Halal
+          and non-Halal options. Every dish is prepared with integrity and served
+          with confidence.
+        </p>
+        <p>
+          Our Neo-Brutalist aesthetic isn't just designâ€”it's our philosophy.
+          What you see is what you get: no hidden ingredients, no false promises,
+          just honest food made with care.
+        </p>
+        <a href="about.html" class="btn">Learn More About Us</a>
+      </article>
+    </section>
+    <section>
+      <h2>EXPLORE OUR MENU</h2>
+      <div class="menu-grid">
+        <article class="menu-item">
+          <h3>BURGERS</h3>
+          <p>
+            From classic to outrageous, our burgers are bold and unapologetic.
+            Beef, chicken, or veggieâ€”all pack serious flavor.
+          </p>
+          <a href="menu.html#burgers" class="btn">See Burgers</a>
+        </article>
+        <article class="menu-item">
+          <h3>SANDWICHES</h3>
+          <p>
+            Stacked high with premium meats or fresh veggies. Our sandwiches
+            don't mess around. Choose your protein, we'll make it count.
+          </p>
+          <a href="menu.html#sandwiches" class="btn">See Sandwiches</a>
+        </article>
+        <article class="menu-item">
+          <h3>DRINKS</h3>
+          <p>
+            Fresh juices, bold coffees, and classic sodas. The perfect complement
+            to your meal. Simple, refreshing, no frills.
+          </p>
+          <a href="menu.html#drinks" class="btn">See Drinks</a>
+        </article>
+      </div>
+    </section>
+    <section style="background-color: #000; color: #fff; text-align: center;">
+      <h2>GET IN TOUCH</h2>
+      <p>Questions? Special requests? Want to support our mission?</p>
+      <a href="contact.html" class="btn">Contact Us</a>
+      <a href="donation.html" class="btn" style="margin-left: 1rem;">Support Us</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Brutalist Bites. All rights reserved.</p>
+    <p>
+      <small>
+        This is a demonstration website developed as an educational exercise
+        for CSI_5_WET - Web Technologies course. Some content may be adapted
+        from public sources under Creative Commons license for educational purposes only.
+      </small>
+    </p>
+    <p>
+      <a href="#" style="color: #00FFFF;">Accessibility Statement</a> |
+      <a href="#" style="color: #00FFFF;">Privacy Policy</a>
+    </p>
+  </footer>
+  <script src="Assets/JS/menu.js"></script>
+</body>
+</html>
